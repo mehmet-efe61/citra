@@ -77,7 +77,7 @@ void SoftwareKeyboard::Update() {
     // TODO(Subv): Handle input using the touch events from the HID module
 
     // TODO(Subv): Remove this hardcoded text
-    std::u16string text = Common::UTF8ToUTF16("Citra");
+    std::u16string text = Common::UTF8ToUTF16("Efe");
     memcpy(text_memory->GetPointer(), text.c_str(), text.length() * sizeof(char16_t));
 
     // TODO(Subv): Ask for input and write it to the shared memory
